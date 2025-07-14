@@ -99,3 +99,48 @@ a:hover {
     color: #eee;
     text-decoration: underline;
 }
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #c2e0ff;
+    }
+
+    header {
+        display: flex;
+        font-size: x-small;
+        flex-direction: row;
+        gap: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+    .icon{
+        width: 30px;
+    }
+    .container{
+flex-direction: column;
+    }
+    .section:hover {
+        transform: scale(1.05);
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+    img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .download {
+        flex-direction: row;
+        gap: 10px;
+        font-size: small;
+    }
+    .button{
+        max-width: 40px;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: small;
+    }
+}
