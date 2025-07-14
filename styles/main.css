@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(197, 196, 196);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-size: smaller;
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 1px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(231, 231, 234);
+}
+.app-card {
+    transform: translateX(40%);
+    text-align: center;
+    display: inline-block;
+    height: 350px;
+    border: 1px solid #aaa9a9;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 5px;
+    margin: 15px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.app-card:hover{
+    background-color: rgb(220, 219, 219);
+    color: rgb(3, 3, 3);
+}
+a{
+ text-decoration: none;
+ border-radius: 5px;
+ max-width: 20px;
+ background-color: rgb(250, 251, 252);
+ color: black;
+ padding: 5px;
+ box-shadow: 0 0 5px rgb(253, 253, 253);
+}
+a:hover{
+    background-color: rgb(100, 157, 249);
+    color: rgb(250, 250, 250);
+}
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: #7e7d7d;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+@media (max-width: 767px) {
+    .app-card {
+        transform: none;
+        display: block;
+        max-width: 90%;
+        height: auto;
+        margin: 15px auto;
+    }
+    
+    header {
+        max-width: 90%;
+        font-size: small;
+    }
+    
+    footer {
+        font-size: small;
+    }
+}
+
