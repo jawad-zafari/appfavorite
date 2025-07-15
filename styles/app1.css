@@ -118,3 +118,24 @@ h4{
     }
     
 }
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    .description {
+        font-size: medium;
+        padding: 5px;
+    }
+    .features{
+        font-size: small;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: x-small;
+    }
+    
+}
